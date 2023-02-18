@@ -1,72 +1,100 @@
-# Getting Started with Create React App
+# Live Box 
+  
+  ### A Live Box is a online chat based application used to connects everyone on a single platform.
+  
+ ![home-page-light](https://raw.githubusercontent.com/kkb-mmmut/Live_Box/main/Screenshots%20livebox/livebox.png) 
+ 
+ ## UserInterface with Selected User (fixed)
+   ![home-page-light](https://raw.githubusercontent.com/kkb-mmmut/Live_Box/main/Screenshots%20livebox/selected_public_interface.png)
+   
+## Deployments
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+     https://kkb-mmmut.github.io/Live_Box/
 
-## Available Scripts
+## Created Using
+    React Js
+    HTML/CSS/JSX
+    JS 
+    React Hooks {useEffect/useContext Api} / Routing
+    Using Authentication by Firebase.
+    
+## Live Box
+    A Live Box is an online chat based application used to connects everyone on a single platform, which will basically have the features of
+     login, signup, create new chat, search users, live user interaction, send images etc. 
 
-In the project directory, you can run:
+## Basic Features.
+    1-Login page by using firebase/auth.
+    2-We can create the user by using signup page.
+    3-Fully working functionalty for search users and chats.
+    4-Can send the messages,images or any file.
+    5-Amazing user interface and awsome public interface . 
+    6-Handle errors and success alerts and show appropriate Alert/Notification.
+    
+#  Fetching Posts
+    ## In this section, we followed the following steps:
+    
+        1 - We created a file in the utils folder for storing constants and URLs that
+        will be required when we will fetch the data.
+        
+        2 - Then we implemented the custom fetch function for fetching data
+        from the APIs. It has 2 parameters body and customConfig.
+        
+        3 - Here we used the try and catch method so that the app doesn’t crash
+        when an error is encountered.
+        
+        4 - We have used async-await syntax here with fetch.
+        
+        5 - An async function starts a request and returns a promise. When
+        the request completes, the promise is resolved with the
+        Response object. If the request fails, the promise is rejected.
+        
+        6 - The await keyword causes the JavaScript runtime to pause your
+        code on this line, not allowing further code to execute in the
+        meantime until the async function call has returned its result —
+        very useful if subsequent code relies on that result! Therefore,
+        the await keyword is used before the fetch function.
+        
+        7 - Since the body is an object and an object can’t be passed in fetch
+        function. So, if it is present it is first converted into a string and then
+        passed through the fetch function.
+        
+        8 - The response received from the firebase. 
+        
+        9 - For styling, we used CSS modules in which class names are scoped
+        locally for avoiding naming conflicts.
+        
+# Firebase Authorization:  
+    ## Authorization: 
+    This is the most important scenario where firebase/auth is
+    used. It helps to persist the user and once the user is logged in, the onAuthStateChanged
+    request will include all the resources, accesses that are permitted to
+    the user.
+     
 
-### `yarn start`
+## Screenshots
+# Public Interface
+![home-page-light](https://raw.githubusercontent.com/kkb-mmmut/Live_Box/main/Screenshots%20livebox/from_anotherside_client.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# User Interface 
+![home-page-light](https://raw.githubusercontent.com/kkb-mmmut/Live_Box/main/Screenshots%20livebox/client_one.png) 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Search Results
+![home-page-light](https://raw.githubusercontent.com/kkb-mmmut/Live_Box/main/Screenshots%20livebox/Search-Results.png)
 
-### `yarn test`
+# New User Login Profile 
+![home-page-light](https://raw.githubusercontent.com/kkb-mmmut/Live_Box/main/Screenshots%20livebox/new_login.png)
+ 
+# Overall Results
+![home-page-light](https://raw.githubusercontent.com/kkb-mmmut/Live_Box/main/Screenshots%20livebox/overall_results.png) 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How to Run the project on local server.
 
-### `yarn build`
+  1-Forked the github repository and run the project on their on deploying it.
+  
+  2-Download the project on you local computer and unzip the file.
+  
+  3-Then download all the dependencies by using "npm install".
+  
+  4-Start the project by using "npm start".
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# crypto-blog" 
-# Contact-Book
+## Happy Hacking !!
