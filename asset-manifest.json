@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/Contact-Book/static/js/main.9b64484e.chunk.js",
+    "main.js.map": "/Contact-Book/static/js/main.9b64484e.chunk.js.map",
+    "runtime-main.js": "/Contact-Book/static/js/runtime-main.2bb17f47.js",
+    "runtime-main.js.map": "/Contact-Book/static/js/runtime-main.2bb17f47.js.map",
+    "static/js/2.57031917.chunk.js": "/Contact-Book/static/js/2.57031917.chunk.js",
+    "static/js/2.57031917.chunk.js.map": "/Contact-Book/static/js/2.57031917.chunk.js.map",
+    "index.html": "/Contact-Book/index.html",
+    "static/js/2.57031917.chunk.js.LICENSE.txt": "/Contact-Book/static/js/2.57031917.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2bb17f47.js",
+    "static/js/2.57031917.chunk.js",
+    "static/js/main.9b64484e.chunk.js"
+  ]
+}
